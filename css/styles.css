@@ -1,0 +1,317 @@
+* { /*For all elements.We will remove the margins and 
+  paddings and then adjust it later on to our likings*/
+  margin:0;
+  padding:0;
+  box-sizing:0;
+}
+
+/*main styling*/
+
+html,
+body {
+  font-family:sans-serif;
+
+}
+
+a {
+  color:#333;
+  text-decoration:none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom:20px;
+}
+
+p {
+  margin:10px 0px;
+}
+
+#navbar {
+  background:#333;
+  color:#fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color:#fff;
+}
+
+#navbar h1 {
+  float:left;
+  padding-top:20px;
+}
+
+#navbar ul {
+  float:right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float:left;
+}
+
+#navbar ul li a {
+display:inline-block;
+padding:25px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current/*Before you clickk it 
+it will have a background-colorss and colors as well*/ {
+  background-color:#444;
+  color:#f7c08a;
+}
+
+
+.container {
+  max-width:1100px;
+  margin:auto;
+
+
+}
+
+.text-primary {
+  color:#f7c08a;
+}
+
+.lead {
+  font-size:20px;
+}
+
+.btn { /*It means button*/
+  display:inline-block;
+  font-size:18px;
+  color:#fff;
+  background-color:#333;
+  padding:13px 20px;
+  border:none;
+  cursor:pointer;
+}
+
+.btn:hover {
+  background-color:#f7c08a;
+  color:#333;
+}
+
+.btn-light {
+  background-color:#f4f4f4;
+  color:#333;
+}
+
+.btn-dark {
+  background-color: #333;
+  color:#fff;
+}
+
+.bg-dark { /*Bg means background-color*/
+ background-color: #333;
+ color:#fff;
+}
+
+.bg-light {
+  background-color:#f4f4f4;
+  color:#333;
+}
+
+.bg-primary {
+  background-color:#f7c08a;
+  color:#333;
+}
+
+.clr {
+  clear:both;
+}
+
+/*showcase section*/
+
+#showcase {
+  background-image:url("../img/showcase.jpg");
+  background-repeat:no-repeat;
+  background-position:center; /*It will be focused on center*/
+  background-size:cover;
+  height:600px; /*Only for computers*/
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color:#fff;
+  padding:170px;
+}
+
+#showcase h1 {
+font-size:60px;
+}
+
+#showcase p {
+  padding-bottom:20px;
+  font-size:20px;
+}
+
+#home-info {
+  height:400px;
+  display:flex;
+}
+
+#home-info .info-img {
+  /* float:left; */
+  width:50%;
+  height:100%;
+  background-image: url(../img/photo-1.jpg);
+  /* background-repeat:no-repeat; */
+}
+
+#home-info .info-content {
+  /* float:right; */
+  width: 50%;
+  height:100%;
+  text-align:center;
+  padding:50px 30px;
+}
+
+#home-info .info-content p {
+  padding-bottom:20px;
+  font-size:18px;
+  line-height: 40px;;
+}
+
+/*Features section*/
+
+#features {
+  display:flex;
+}
+
+.box {
+  width:33.3%;
+  /* float:left; */
+  padding:50px;
+  text-align:center;
+}
+
+.box i {
+  margin-bottom:10px;
+}
+
+#main-footer {
+  text-align: center;
+  background-color:#444;
+  color:#fff;
+  padding:20px;
+}
+/*About us page*/
+
+#about-info {
+  padding:20px 0px;
+  display:inline-block;
+  width:100%;
+}
+
+#about-info .info-right {
+    float:right;
+    width:50%;
+    min-height:100%;
+}
+
+
+#about-info .info-right img {
+  display:block;
+  margin:auto;
+  width:70%;
+  border-radius:50%;
+}
+
+
+#about-info .info-left {
+  float:left;
+  width:50%;
+  min-height:100%;
+}
+
+/*testimonial section*/
+
+#testimonials {
+  height:600px;
+  padding-top:100px;
+  background-image: url('../img/test-bg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+#testimonials h2 {
+  color:#fff;
+  text-align:center;
+  padding-bottom:40px;
+  font-size:34px;
+}
+
+#testimonials .testimonial {
+  padding:20px;
+  margin-bottom:40px;
+  border-radius:5px;
+  opacity:0.9
+}
+
+#testimonials .testimonial img {
+  width:100px;
+  float:left;
+  margin-right:20px;
+  border-radius:50%;
+}
+
+
+/*Contact us page*/
+
+#contact-form {
+  padding:20px 0px;
+
+}
+
+#contact-form h1 {
+  font-size:32px;
+}
+
+#contact-form .form-group {
+  margin-bottom:20px;
+
+}
+
+.container p {
+  font-size:18px;
+  font-weight:500;
+}
+
+#contact-form label {
+  display:block;
+  margin-bottom:5px;
+  font-size:20px;
+  font-weight:600;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width:100%;
+  padding:10px;
+  border:1px solid #ddd;
+}
+
+#contact-info {
+  display:inline-block;
+  width:100%;
+
+}
+
+.container1 {
+  max-width:1100px;
+  margin:auto;
+
+  display:flex;
+}
+
+.form-group input:focus {
+  background-color: #333;
+  color:#fff;
+  font-size:1rem;
+  font-weight:600;
+}
